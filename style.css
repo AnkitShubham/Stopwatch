@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Panchang', sans-serif;
+    /* font-family: 'Melodrama', sans-serif; */
+}
+
+button{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Panchang', sans-serif;
+    background-color: #CBFF8C;
+}
+
+.wrapper * {
+    margin-top: 20px;
+}
+
+.timer{
+    font-size: 30px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+.notation{
+    font-size: 10px;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+}

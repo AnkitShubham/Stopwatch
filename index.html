@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=panchang@400&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=melodrama@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="heading">
+        <h1>Stopwatch</h1>
+      </div>
+      <div class="display">
+        <p id="display">
+          <span class="timer" id="hours">0</span>
+          <span class="notations">hr</span>
+          <span class="timer"> : </span>
+          <span class="timer" id="minutes">0</span>
+          <span class="notations">min</span>
+          <span class="timer"> : </span>
+          <span class="timer" id="seconds">0</span>
+          <span class="notations">sec</span>
+          <span class="timer"> : </span>
+          <span class="timer" id="milliseconds">0</span>
+          <span class="notations">ms</span>
+        </p>
+      </div>
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
