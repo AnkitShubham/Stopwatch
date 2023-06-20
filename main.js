@@ -40,6 +40,7 @@ function resetStopwatch(){
     stopStopwatch();
     elapsedTime = 0;
     updateDisplay();
+    document.getElementById('list').innerHTML='';
 }
 
 function updateStopwatch(){
